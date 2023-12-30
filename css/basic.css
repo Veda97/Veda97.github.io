@@ -1,0 +1,109 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background-image: url('../img/block_background.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+
+  
+/* Reset some default styles */
+body {
+    margin: 0;
+    padding: 0;
+}
+
+/* Apply a background color to the navigation bar */
+.navbar {
+    color: #fff;
+    top: 0;
+    width: 100%;
+    transition: top 0.3s; /* Add smooth transition for collapsing */
+    z-index: 1000; /* Ensure the navbar is above other content */
+}
+
+/* Style the container to center the items */
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 10px 20px;
+}
+
+/* Style the navbar items */
+.navbar-items {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: space-between; /* Evenly space items */
+}
+
+.navbar-items li {
+    margin: 0;
+}
+
+.navbar-items a {
+    text-decoration: none;
+    color: #fff;
+    font-family: Arial, sans-serif; /* Choose a good font */
+    font-size: 16px;
+    padding: 10px 20px;
+    transition: color 0.2s;
+}
+
+.navbar-items a:hover {
+    color: #ff6600; /* Change color on hover */
+}
+
+/* Add a class to the header when scrolling */
+.scroll-header {
+    top: -80px; /* Adjust this value as needed */
+}
+
+
+.intro-text {
+    color: #fff;
+    padding: 100px 50px;
+}
+.intro-text .intro-heading {
+    font-size: 75px;
+    font-weight: 700;
+    line-height: 75px;
+    margin-bottom: 50px;
+    font-family: Montserrat,-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Arial,sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol','Noto Color Emoji';
+}
+
+.intro-text p {
+    line-height: 1.75;
+    margin-top: 0;
+    margin-bottom: 1rem;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+.btn-primary {
+    background-color: #f3db83;
+    border-color: #f3db83;
+    display: inline-block;
+    font-weight: 400;
+    text-align: center;
+    vertical-align: middle;
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    border-radius: 0.25rem;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+    text-decoration: none; /* Remove underline */
+    color: inherit; /* Use the default text color */
+}
+
+.btn {
+    font-family: Montserrat,-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Arial,sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol','Noto Color Emoji';
+    font-weight: 700;
+}
+
