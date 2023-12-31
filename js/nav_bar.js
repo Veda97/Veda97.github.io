@@ -14,10 +14,10 @@ function navBar() {
             <a class="nav-link js-scroll-trigger" href="../pages/research.html">Research</a>
             </li>
             <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="../pages/experience.html/">Experience</a>
+            <a class="nav-link js-scroll-trigger" href="../pages/experience.html">Experience</a>
             </li>
             <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="../pages/outreach">Outreach</a>
+            <a class="nav-link js-scroll-trigger" href="../pages/outreach.html">Outreach</a>
             </li>
         </ul>
         </div>
